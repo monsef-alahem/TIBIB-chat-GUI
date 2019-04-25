@@ -139,7 +139,7 @@ int main(int argc, char**args)
     Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 2048 );
 
     //contruire une fenêtre
-    window = SDL_CreateWindow( "SDL2 template", 500, 300, 640, 480, 0 );
+    window = SDL_CreateWindow( "TIBIB-chat", 500, 300, 640, 480, 0 );
     //flag = SDL_WINDOW_FULLSCREEN for full screen
     Uint32 flag = 0;
     SDL_SetWindowFullscreen(window, flag);
